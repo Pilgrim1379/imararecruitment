@@ -775,7 +775,7 @@ article {
 }
 
 .sidebar .categories ul li a {
-  color: #555;
+  color: #063852;
 }
 
 .sidebar .categories ul li:last-child {
@@ -787,7 +787,7 @@ article {
 }
 
 .sidebar .recent-post ul li a {
-  color: #555;
+  color: #063852;
   font-size: 15px;
 }
 
@@ -1317,7 +1317,7 @@ article {
 #footer {
   background: #fff;
   padding: 25px 0;
-  color: #555;
+  color: #063852;
 }
 
 #footer .copyright {
