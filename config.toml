@@ -53,10 +53,10 @@ theme = "timer-hugo"
                 <li>Registered General Nurses (RGN)</li>
                 <li>Health Care Assistants</li>
                 <li>Domestics</li>
-                <li>Chefs</li>
             </ul>
             <ul class="custom-list">
                 <li>Cleaners</li>
+                <li>Chefs</li>
                 <li>Specialist Nurses</li>
                 <li>Support Workers</li>
                 <li>Managment Staff</li>
