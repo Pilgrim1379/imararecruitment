@@ -1,0 +1,73 @@
+baseURL = "https://imararecruitment.co.uk/"
+languageCode = "en-gb"
+title = "Imara Recruitment | Meeting Your Staffing Needs"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "/contact"
+        weight  = 3
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/imara-logo-1.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Imara Recruitment Website"
+    author = "Napoleon"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/hero.jpg"
+        heading = "Specialist Health Care Recruiters"
+        description = "YOUR TRUSTED PARTNER FOR ALL YOUR STAFFING NEEDS"
+        [[params.banner.flipText]]
+            title   = "WE ARE RELIABLE"
+        [[params.banner.flipText]]
+            title   = "WE ARE DEDICATED"
+        [[params.banner.flipText]]
+            title   = "WE GO THE EXTRA MILE"
+
+    # Homepage Service Section
+    [params.service]
+        enable  = true
+        title   = "OUR SERVICES"
+        content = """
+            We pride ourselves in providing a unique and efficient staffing service that is tailored to your specific needs, 
+            making us a placement ‘real-deal’. We are currently able provide staff to cover the following positons:
+            <ul class="custom-list">
+                <li>Mental Health Nurses (RMN)</li>
+                <li>Health Care Assistants</li>
+                <li>Domestics</li>
+                <li>Chefs</li>
+            </ul>
+            <ul class="custom-list">
+                <li>Cleaners</li>
+                <li>Specialist Nurses</li>
+                <li>Managment Staff</li>
+            </ul>
+        """
+        image   = "images/services.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "WE ARE EXPECTING YOUR CALL!!"
+        content = "Lets have a chat to see how we can help your organisation continue to maintain the excellent service it currently provides."
+        btnText = "Contact Us"
+        btnURL  = "/contact"
+
+    
