@@ -50,6 +50,7 @@ theme = "timer-hugo"
             making us a placement ‘real-deal’. We are currently able provide staff to cover the following positons:
             <ul class="custom-list">
                 <li>Mental Health Nurses (RMN)</li>
+                <li>Registered General Nurses (RGN)</li>
                 <li>Health Care Assistants</li>
                 <li>Domestics</li>
                 <li>Chefs</li>
@@ -57,6 +58,7 @@ theme = "timer-hugo"
             <ul class="custom-list">
                 <li>Cleaners</li>
                 <li>Specialist Nurses</li>
+                <li>Support Workers</li>
                 <li>Managment Staff</li>
             </ul>
         """
