@@ -75,19 +75,13 @@
             },
         },
         submitHandler: function (form) {
-            $(form).ajaxSubmit({
-                type: "POST",
-                data: $(form).serialize(),
-                // url: "https://formspree.io/info@imararecruitment.co.uk",
-                url: function () {
-                    return $(this).attr('action');
-                },
-                success: function () {
-                    $('#contact-form #success').fadeIn();
-                },
-                error: function () {
-                    $('#contact-form #error').fadeIn();
-                }
+            $("#contact-form").submit(function (e) {
+                e.preventDefault();
+
+                var $form = $(this);
+                $.post($form.attr("action"), $form.serialize()).then(function () {
+                    alert("Thank you!");
+                });
             });
         }
     });
