@@ -79,7 +79,9 @@
                 type: "POST",
                 data: $(form).serialize(),
                 // url: "https://formspree.io/info@imararecruitment.co.uk",
-                url: $(form).attr("action"),
+                url: function () {
+                    return $(this).attr('action');
+                },
                 success: function () {
                     $('#contact-form #success').fadeIn();
                 },
