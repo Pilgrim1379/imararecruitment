@@ -78,7 +78,8 @@
             $(form).ajaxSubmit({
                 type: "POST",
                 data: $(form).serialize(),
-                url: "https://formspree.io/info@imararecruitment.co.uk",
+                // url: "https://formspree.io/info@imararecruitment.co.uk",
+                url: $(form).attr("action"),
                 success: function () {
                     $('#contact-form #success').fadeIn();
                 },
