@@ -1,6 +1,6 @@
 baseURL = "https://www.imararecruitment.co.uk/"
 languageCode = "en-gb"
-title = "Imara Recruitment | Meeting Your Staffing Needs"
+title = "Imara Recruitment | Professional staff at the drop of a hat"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -32,8 +32,8 @@ theme = "timer-hugo"
     [params.banner]
         enable  = true
         bgImage = "images/hero.jpg"
-        heading = "Specialist Health Care Recruiters"
-        description = "YOUR TRUSTED PARTNER FOR ALL YOUR STAFFING NEEDS"
+        heading = "Specialist Care & Nursing Home Recruiters"
+        description = "PROFESSIONAL STAFF, AT THE DROP OF A HAT"
         [[params.banner.flipText]]
             title   = "WE ARE RELIABLE"
         [[params.banner.flipText]]
@@ -45,9 +45,25 @@ theme = "timer-hugo"
     [params.service]
         enable  = true
         title   = "OUR SERVICES"
-        content = """
-            We pride ourselves in providing a unique and efficient staffing service that is tailored to your specific needs, 
-            making us a placement ‘real-deal’. We are currently able provide staff to cover the following positons:
+        content_intro = """
+            <strong>We make sure your care home runs smoothly by providing you with well vetted, skilled and dedicated staff. Whoever you need, whenever you need them. We’ll be there, providing care.</strong> 
+            <p>Your residents deserve the best level of care possible, don’t they?</p>
+            <p>Like you, we believe that providing care is a calling, not just a job. Our experience means we only pick the right people to join your team. If people aren’t passionate and dedicated to caring for others, we don’t work with them.</p>
+            """
+        content_why_us = """
+            <strong>We’ve been in your shoes, this helps us choose.</strong>
+            <p>Because we’ve worked in care homes, we understand the challenges you face daily. Understanding your problems and helping to solve them for you is our number one goal. Knowing what kind of people are needed for each job means we can give you just the right person every time.</p>
+            <p>You can relax knowing that each member of staff we provide for you has been well vetted and is caring, professional and reliable.</p>
+            """
+        content_what_we_provide = """
+            <strong>Whatever you need, we’ve got you covered.</strong>
+            <p>Whether you need nurses, managers, chefs or cleaners, we’ll ensure that you get the best. All at the drop of a hat.</p>
+            <p>With us, your residents will be treated with care, dignity and respect. Leaving them, and their friends and family, raving about the level of care you provide.</p>
+            <p>You can rely on our 25 years of professional experience, and can rest assured that we’ve helped many other care homes, just like yours, provide the best level of care possible.</p>
+            <p>Whether you’re looking for temporary, part-time or full-time professionals, we make sure you have only the best for your team.</p>
+        """
+        roles = """
+            <strong>We are currently able provide staff to cover the following positons:</strong>
             <ul class="custom-list">
                 <li>Mental Health Nurses (RMN)</li>
                 <li>General Nurses (RGN)</li>
@@ -63,13 +79,14 @@ theme = "timer-hugo"
                 <li>Managment Staff</li>
             </ul>
         """
-        image   = "images/services.jpg"
+        image_services   = "images/services-contact-us.jpg"
+        image_care_assistant = "images/image-care-assistant.jpg"
 
     # Call to Action
     [params.cta]
         enable  = true
         title   = "WE ARE EXPECTING YOUR CALL!!"
-        content = "Lets have a chat to see how we can help your organisation continue to maintain the excellent service it currently provides."
+        content = "Contact us now and let us start helping you straight away."
         btnText = "Contact Us"
         btnURL  = "/contact"
 

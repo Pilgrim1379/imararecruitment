@@ -3,15 +3,43 @@
 <section id="service">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                    {{ with .Site.Params.service.title }}<h2>{{ . }}</h2>{{ end }}
-                    {{ with .Site.Params.service.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+            <div class="col-sm-4">
+                <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.service.image_care_assistant }}<img src="{{ . | absURL }}"
+                        alt="service-image">{{ end }}
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-8">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.service.title }}<h2>{{ . }}</h2>{{ end }}
+                    {{ with .Site.Params.service.content_intro }}<p>{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.service.content_why_us }}<p>{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.service.content_what_we_provide }}<p>{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+            <div class="col-sm-4">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    {{ with .Site.Params.service.image }}<img src="{{ . | absURL }}" alt="service-image">{{ end }}
+                    {{ with .Site.Params.service.image_services }}<img src="{{ . | absURL }}"
+                        alt="service-image">{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.service.roles }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
         </div>
